@@ -16,8 +16,7 @@ def main():
 
     # Call the Sheets API
     sheet = apiService.spreadsheets()
-    result = sheet.values().get(spreadsheetId=SPREADSHEET_ID,
-                                range=quotesRange).execute()
+    result = sheet.values().get(spreadsheetId=SPREADSHEET_ID,range=quotesRange).execute()
     values = result.get('values', [])
 
     if not values:

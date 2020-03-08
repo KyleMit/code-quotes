@@ -4,7 +4,7 @@ Some quotes pulled from Google Sheets API
 
 ## Project Setup
 
-1. Run 
+1. Install pip packages `google-api-python-client`, `google-auth-httplib2`, & `google-auth-oauthlib`
 
 ```bash
 pip install -r requirements.txt
@@ -12,6 +12,7 @@ pip install -r requirements.txt
 
 ## [Python Quickstart](https://developers.google.com/sheets/api/quickstart/python)
 
+Sharing this [Google Sheet](https://docs.google.com/spreadsheets/d/1Bjm9VDXDBOd2krO4hUDNPtyU4iCPZhlWGtMqVhl6Jwk/edit?usp=sharing)
 
 
 ### Help Section
@@ -29,3 +30,5 @@ pip install -r requirements.txt
 
 * [API Reference v4](https://developers.google.com/sheets/api/reference/rest/)
 * [Get list of sheets and latest sheet in google spreadsheet api v4 in Python](https://stackoverflow.com/q/38245714/1366033)
+* [API Triggers](https://developers.google.com/apps-script/guides/triggers/)
+* [Installable Triggers](https://developers.google.com/apps-script/guides/triggers/installable)
